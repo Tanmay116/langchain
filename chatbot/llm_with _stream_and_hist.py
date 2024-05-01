@@ -11,7 +11,6 @@ from langchain.agents import load_tools ,initialize_agent
 
 load_dotenv()
 
-os.environ["GROQ_API_KEY"]="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"
 os.environ["LANGCHAIN_TRACING_V2"]="true"
 os.environ["LANGCHAIN_API_KEY"]=os.getenv("LANGCHAIN_API_KEY")
 
