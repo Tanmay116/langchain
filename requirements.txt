@@ -17,4 +17,5 @@ wikipedia
 langchainhub
 text_generation
 transformers
+langgraph
 google-search-results

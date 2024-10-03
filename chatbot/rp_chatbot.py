@@ -40,7 +40,7 @@ wikipedia_tool = WikipediaQueryRun(api_wrapper=wikipedia_wrapper)
 memory = MemorySaver()
 tools = [arxiv_tool, wikipedia_tool, tvly]
 
-llm = ChatGroq(temperature=0, model_name="gemma2-9b-it")
+llm = ChatGroq(temperature=0, model_name="llama3-groq-70b-8192-tool-use-preview")
 llm_with_tools = llm.bind_tools(tools=tools)
 
 class State(TypedDict):
